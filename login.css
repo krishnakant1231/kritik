@@ -1,0 +1,165 @@
+.body {
+    font-family: sans-serif;
+}
+
+#header {
+    width: 1530px;
+    position: sticky;
+    border-radius: 2px;
+    border: 2px solid red;
+    outline: none;
+    margin-left: -7px;
+    margin-top: -7px;
+    height: 10vh;
+    background-color: black;
+    z-index: 999;
+    position: relative;
+}
+
+#header ul {
+    margin-left: 900px;
+    display: flex;
+    position: absolute;
+}
+
+.logo {
+    margin-top: -15px;
+    margin-left: -900px;
+    height: 50px;
+    width: 50px;
+}
+
+#header ul li {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+#header ul li a:hover {
+    background-color: red;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid yellow;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+#login-page {
+    width: 1530px;
+    position: sticky;
+    border: 2px solid black;
+    margin-top: 0px;
+    height: 655px;
+    margin-left: -7px;
+    background-color: black;
+    z-index: 999;
+}
+
+#login-page form {
+    margin-left: 450px;
+    margin-top: 70px;
+    width: 600px;
+    outline: none;
+    height: 500px;
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50000px 0px red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+}
+
+#login-page form h1 {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    position: relative;
+}
+
+#login-page form input {
+    margin-top: 30px;
+    text-align: center;
+    background-color: black;
+    color: red;
+    border: 0px solid red;
+    box-shadow: 4px 1px 30px 1px red;
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#login-page form input:hover {
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#login-page form button {
+    text-align: center;
+    background-color: black;
+    color: red;
+    border: 0px solid red;
+    box-shadow: 4px 1px 20px 1px red;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-left: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#login-page form button:hover {
+    color: yellow;
+    border: 0px solid yellow;
+    box-shadow: 4px 1px 20px 1px yellow;
+}
+
+#login-page form .login {
+    margin-top: 40px;
+}
+
+#login-page form .login-with-google {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#login-page form .login-with-facebook {
+    margin-left: 100px;
+}
+
+#login-page form h4 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+#login-page form h4:hover {
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
